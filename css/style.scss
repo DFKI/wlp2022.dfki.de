@@ -377,6 +377,16 @@ a {
       margin-left: $default-spacing;
     }
   }
+
+  &.main-event {
+    .icon-holder {
+      background-color: #1761b3;
+    }
+
+    strong {
+      color: #1761b3;
+    }
+  }
 }
 
 .register-now {
