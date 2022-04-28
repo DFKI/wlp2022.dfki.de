@@ -175,12 +175,12 @@ a {
 
 .header {
   @media screen and (min-width: 941px) {
-    height: 900px;
+    height: 1000px;
 
     -webkit-clip-path: polygon(0% 100%, 0% 0%, 100% 0%, 100% 80%);
     clip-path: polygon(0% 100%, 0% 0%, 100% 0%, 100% 80%);
   }
-  background: $gray url('../images/36869016425_e7221366d2_k.jpg') 50% -100px no-repeat fixed;
+  background: $gray url('../images/8417475625_cf26f4176f_k.jpg') 50% -150px no-repeat fixed;
   background-size: cover;
   color: $gray;
   z-index: 1;
@@ -423,7 +423,7 @@ a {
 
 .intro {
   @media screen {
-    margin-top: -338px;
+    margin-top: -438px;
   }
 
   position: relative; //needed because of clip-path on header element
