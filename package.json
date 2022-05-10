@@ -1,0 +1,24 @@
+{
+  "name": "@DFKI/wlp2022.dfki.de",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Source files of the website for the 36th Workshop on (Constraint) Logic Programming (WLP 2022)",
+  "scripts": {
+    "check": "prettier --check \".\"",
+    "format": "prettier --write \".\"",
+    "test": "npm run check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DFKI/wlp2022.dfki.de.git"
+  },
+  "author": "Falco Nogatz <fnogatz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DFKI/wlp2022.dfki.de/issues"
+  },
+  "homepage": "https://github.com/DFKI/wlp2022.dfki.de#readme",
+  "devDependencies": {
+    "prettier": "2.6.2"
+  }
+}
