@@ -1,0 +1,50 @@
+WLP @ KI2022: 2nd Call for Papers - New Late Submission Deadline
+----------------------------------------------------------------
+
+36th Workshop on (Constraint) Logic Programming (WLP)
+Workshop at KI2022, **virtual** in Trier, Germany
+September 19, 2022
+
+  Workshop Website:   https://wlp2022.dfki.de/
+  Conference Website: https://ki2022.gi.de/
+
+Important dates:
+  - Late submission deadline: August 8
+  - Notification of acceptance: August 28
+  - Registration: August 31
+  - Workshop: 19th September 2022, 09:00-12:00
+
+Latest news:
+  - The hosting KI2022 will be held as a fully digital conference.
+  - Thus this is a second call for papers for the virtual WLP with extended deadlines.
+
+The Workshop on (Constraint) Logic Programming brings together researchers interested in logic programming, constraint programming, and related areas like databases, artificial intelligence, and operations research. It serves as the scientific forum of the annual meeting of the Society of Logic Programming (GLP, Gesellschaft fuer Logische Programmierung e.V.).
+
+Contributions are welcome on all theoretical, experimental, and application aspects of logic and constraint logic programming. The topics include, but are not limited to the following areas:
+  - Logic and Constraint Logic Programming Languages and Extensions
+  - Knowledge Representation and Non-monotonic Reasoning
+  - Applications and Application Areas of (C)LP
+  - Implementations
+
+In this year, the workshop is organised as part of the 45th German Conference on Artificial Intelligence (KI2022) in Trier. Since KI2022 recently decided to go fully virtual, the WLP announces a second, late submission deadline. In addition to the already passed standard submission, this allows authors to still contribute on a tighter schedule of publication, as WLP participation no longer requires travel planning and travel expenses. Besides the later notification, contributions of late submission will receive the same treatment as standard submissions.
+
+Workshop Chairs:
+  - Falco Nogatz, DFKI, Germany
+  - Mario Wenzel, University of Halle, Germany
+Program Committee:
+  - Slim Abdennadher, German University Cairo, Egypt
+  - Salvador Abreu, University of Evora, Portugal
+  - Stefan Brass, University of Halle, Germany
+  - Thom Fruehwirth, Ulm University, Germany
+  - Ulrich Geske, University of Potsdam, Germany
+  - Michael Hanus, University of Kiel, Germany
+  - Petra Hofstedt, BTU Cottbus-Senftenberg, Germany
+  - Ulrich John, IU of Applied Sciences Berlin, Germany
+  - Philipp Koerner, University Duesseldorf, Germany
+  - Sibylle Schwarz, HTWK Leipzig, Germany
+  - Dietmar Seipel, University of Wuerzburg, Germany
+  - Hans Tompits, TU Wien, Austria
+  - Felix Weitkaemper, LMU Muenchen, Germany
+  - Armin Wolf, Fraunhofer FOKUS, Germany
+Workshop website:
+  https://wlp2022.dfki.de/
