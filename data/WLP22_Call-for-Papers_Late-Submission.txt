@@ -46,5 +46,5 @@ Program Committee:
   - Hans Tompits, TU Wien, Austria
   - Felix Weitkaemper, LMU Muenchen, Germany
   - Armin Wolf, Fraunhofer FOKUS, Germany
-Workshop website:
+Workshop Website:
   https://wlp2022.dfki.de/
