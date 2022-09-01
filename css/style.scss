@@ -2712,3 +2712,35 @@ pre.cfp {
   background: #ddd;
   padding: 20px;
 }
+
+.section .container ul.keywords {
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  color: #7a7a7a;
+  line-height: 24px;
+
+  &:before {
+    display: inline-block;
+    content: "Keywords:";
+    margin-right: 12px;
+  }
+
+  li {
+    display: inline;
+    font-style: italic;
+    margin-left: -3px;
+    font-size: inherit;
+
+    &:before {
+      display: inline-block;
+      content: "\b7";
+      width: 12px;
+      text-align: center;
+    }
+
+    &:first-child:before {
+      display: none;
+    }
+  }
+}

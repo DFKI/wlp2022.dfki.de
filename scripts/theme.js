@@ -59,7 +59,7 @@ $(document).ready(function() {
   //$('.header').parallax("50%", 0.2);
 
   // Schedule
-  $('.event-info p:not(.speaker)').hide();
+  $('.event-info p:not(.speaker), .event-info ul.keywords').hide();
   $('.event.extend span').html('<i class="fa fa-angle-down"></i>');
 
   // Extend on click
@@ -77,6 +77,7 @@ $(document).ready(function() {
     };
 
     $event.find('.event-info p:not(.speaker)').toggle();
+    $event.find('.event-info ul.keywords').toggle();
 
   });
 
