@@ -1,0 +1,42 @@
+<div class="event-info">
+  <div>
+    <h4>XML-Processing Using Field Notation Grammars Applied to Tennis Data</h4>
+    <p class="speaker">
+      <strong>Daniel Weidner</strong> and <strong>Dietmar Seipel</strong><br />
+      University of Würzburg
+    </p>
+
+    <p>
+      XML is a well-known and frequently used data format for semi-structured,
+      complex and nested data. In this paper, we store tennis data in an XML
+      format; a match is structured into sets, games, and points, and for every
+      point the location of the tennis field and the trajectory of the ball is
+      given in some way. In earlier work we had implemented an analysis of
+      tennis data, that were entered by hand, using the declarative logic
+      programming toolkit Declare. Recently, we have added an automatic
+      recognition of the tennis data from tennis videos using convolutional
+      neural networks (CNNs). Unfortunately, the automatically obtained XML
+      files from the CNN are unclean and cannot be used for the intended
+      analysis. Coordinates are not given in a bird's-eye perspective, but as
+      recorded from a camera behind the court. Moreover, the ball trajectories
+      have to be reduced to the moments when the ball is hit - instead of one
+      position per video frame, i.e. 24 positions per second (the ball is hit
+      once about every 1.5 seconds, e.g. a rally with 9 hits can take 13 - 15
+      seconds). Also, the CCN frequently fails in recognizing the ball or the
+      tennis field. In this paper, we present a process of XML transformation
+      based on field notation grammars. We transformed the unclean data obtained
+      from the convolutional neural network into structured clean data which can
+      then be used for further processing, like data mining. Our transformation
+      uses field notation grammars (FNGs) and solves linear equations to project
+      x- and y- coordinates into the plane. FNGs have been implemented in
+      Declare using Prolog; they extend the common path notation Xpath of XML,
+      and they combine XML-processing with Prolog.
+    </p>
+
+    <ul class="keywords">
+      <li>Prolog</li>
+      <li>XML Processing</li>
+      <li>Field Notation Grammars</li>
+    </ul>
+  </div>
+</div>

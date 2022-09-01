@@ -958,7 +958,7 @@ a {
 .schedule {
   @extend %clear;
 
-  ul {
+  ul:not(.keywords) {
     list-style-type: none;
 
     @media print {
