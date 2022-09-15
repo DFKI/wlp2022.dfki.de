@@ -958,7 +958,7 @@ a {
 .schedule {
   @extend %clear;
 
-  ul:not(.keywords) {
+  ul:not(.keywords, .downloads) {
     list-style-type: none;
 
     @media print {
@@ -2713,12 +2713,11 @@ pre.cfp {
   padding: 20px;
 }
 
-.section .container ul.keywords {
+.section .container ul.keywords,
+.section .container ul.downloads {
   padding: 0;
   margin: 0;
-  font-size: 13px;
   color: #7a7a7a;
-  line-height: 24px;
 
   &:before {
     display: inline-block;
@@ -2728,7 +2727,6 @@ pre.cfp {
 
   li {
     display: inline;
-    font-style: italic;
     margin-left: -3px;
     font-size: inherit;
 
@@ -2742,5 +2740,44 @@ pre.cfp {
     &:first-child:before {
       display: none;
     }
+  }
+}
+
+.section .container ul.keywords {
+  font-size: 13px;
+  line-height: 24px;
+
+  &:before {
+    display: inline-block;
+    content: "Keywords:";
+    margin-right: 12px;
+  }
+
+  li {
+    font-style: italic;
+  }
+}
+
+.section .container ul.downloads {
+  margin-bottom: 10px;
+  font-size: em(18px);
+
+  &:before {
+    display: inline-block;
+    content: "Downloads:";
+    margin-right: 12px;
+  }
+
+  li a:before {
+    display: inline-block;
+    content: "\00BB";
+    margin-right: 2px;
+  }
+
+  li a[href$=".pdf"]:after {
+    display: inline-block;
+    content: "\f1c1";
+    margin-left: 4px;
+    font-family: FontAwesome;
   }
 }
